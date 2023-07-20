@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --text: #2b3d4f;
+  --background: whitesmoke;
+  --primary: #e75a1d;
+  --secondary: #43a889;
+  --buttons: #237ba4;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  width: 100%;
+}
