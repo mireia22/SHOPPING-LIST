@@ -42,15 +42,15 @@ const ShoppingList = () => {
     }
   };
 
-  const savedList = (shopList) => {
-    return (
-      <>
-        <ul>
-          <li>{shopList.item}</li>
-        </ul>
-      </>
-    );
-  };
+  // const savedList = (shopList) => {
+  //   return (
+  //     <>
+  //       <ul>
+  //         <li>{shopList.item}</li>
+  //       </ul>
+  //     </>
+  //   );
+  // };
   return (
     <ListWrp>
       <p>Add item:</p>
@@ -67,7 +67,6 @@ const ShoppingList = () => {
         dispatch={dispatch}
         deleteItem={deleteItem}
         setAmount={setAmount}
-        shopList={shopList}
       />
     </ListWrp>
   );
