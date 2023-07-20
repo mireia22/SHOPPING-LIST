@@ -1,8 +1,9 @@
 import React, { useEffect, useReducer, useState } from "react";
 import { reducer } from "../../../Reducer";
 import Items from "./Items/Items";
-import Counter from "../../components/Counter/Counter";
+
 import { ListWrp, InputsWrp, AppButton } from "./ShoppingList-styles";
+import Counter from "../../components/Counter/Counter";
 
 const SHOP_LIST_LOCALSTORAGE_KEY = "shop-list";
 const localStorageShopList = localStorage.getItem(SHOP_LIST_LOCALSTORAGE_KEY);
